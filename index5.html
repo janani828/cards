@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards</title>
+    <style>
+        body{
+            background-color: rgb(190, 176, 158);
+        }
+   .head-container {
+    text-align: center;
+    font-size: 50px;
+    background: -webkit-linear-gradient(#a71d90, #99c1db);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+    padding: 5px;
+}
+   hr { 
+            height: 4px; 
+            background-color: red; 
+            border: none; 
+        } 
+     .container {
+    display: flex;
+    gap: 314px;
+    justify-content: center;
+    margin: 70px;
+   }
+   
+    .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    } 
+     .card {
+    width: 283px;
+    background-color: rgb(111, 196, 191);
+    border-radius: 23px;
+    box-shadow: rgba(214, 3, 31, 0.3) 0px 0px 0px 3px;
+    transition: transform 1s;
+}
+    .card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.card h2 {
+    font-size: 52px;
+    margin: 31px;
+    background: -webkit-linear-gradient(#a00505, #3275a1);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+.card:hover{
+    transform: scale(0.5);
+}
+    </style>
+</head>
+<body>
+    <div class="head-container">
+        <h2>Cards Collection</h2>
+    </div>
+    <hr>
+     <div class="container">
+    <div class="card-container">
+        <div class="card">
+        <img src="shinchan.png" alt="">
+        <h2>Shinchan</h2>
+    </div>
+    </div>
+    <div class="card-container">
+        <div class="card">
+        <img src="ninja.jfif">
+         <h2>Ninja hattori</h2>
+    </div>
+    </div>
+    <div class="card-container">
+        <div class="card">
+        <img src="doremon.jfif" alt="">
+        <h2>Doaremon</h2>
+    </div>
+    </div>
+    <div class="card-container">
+        <div class="card">
+        <img src="bheem.jfif" alt="">
+        <h2>Bheem</h2>
+    </div>
+    </div>
+   
+    </div>
+</body>
+</html>
